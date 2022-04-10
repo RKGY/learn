@@ -5,8 +5,8 @@ import time
 from bs4 import BeautifulSoup
 import requests
 
-#url=input("请输入一个网址：")
-url="http://10.254.8.1:8089/?s=c7d825ea2b405ffdbafc489278b07485&mac=45080e24e39e7a2f28d9a1c2dea9bbed&vid=0706cc51d695d9d3&port=3120cd184ac99a20&url=709db9dc9ce334aa02a9e1ee58ba6fcf3bc3349e947ead368bdd021b808fdbac30c65edaa96b0727&userip=6e2be4ecc37f2255c1fede211d6de8c3&ssid=bb0bd32f8b8fd874"
+url=""
+url=input("请输入一个网址：")
 if re.match('http://',url):
     ip=url[7:]
     addr=url[:re.search('/',ip).span()[0]+7]
