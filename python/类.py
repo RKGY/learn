@@ -1,7 +1,7 @@
 class Dog:
     """一次模拟小狗的简单尝试"""
     def __init__(self,name,age):
-        #初始化属性
+        '''初始化属性'''
         self.name=name
         self.age=age
     def sit(self):

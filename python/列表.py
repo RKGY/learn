@@ -1,34 +1,33 @@
-
-bicycles=['trek','fsvff','sfsfs','ffds','yyds']
-massage="my bicycle was a "+bicycles[-1].title() +"."
-print(massage)
+animals=['dog','cat','tig','fish','monkey']
+animals[-1].title()
+print(animals)
 #从尾部添加
-bicycles.append('hjhjshj')
+animals.append('pig')
 #插入
-bicycles.insert(1,122312)
-print(bicycles)
+animals.insert(1,'elephant')
 #删除
-del bicycles[4]#bicycle.remove('ffds')
-print(bicycles)
+del animals[4]#animal.remove('fish')
 #删除元素并继续使用它的值
-poped=bicycles.pop(1)
-print(bicycles)
+poped=animals.pop(1)
+print(poped)
 #根据值删除元素
-bicycles.remove('sfsfs')
+animals.remove('tig')
 #排序
-bicycles.sort(reverse=False)
-print(bicycles)
-print(len(bicycles))
-#遍历列表
-for bicycle in bicycles:
-    print(bicycle.title())
-#range()函数 产生随机数
-for value in range(1,5):
-    print(value)
-#list()产生列表
+animals.sort(reverse=False)
+#求长度
+print('long='+str(len(animals)))
+#list()产生列表,range()函数 产生随机数
 numbers=list(range(1,12,2))
 print(numbers)
 #min() max() sum() 找出最大最小值
 min(numbers)
 #切片
-print(bicycles[0:3])
+print(animals[0:3])
+#遍历列表
+for animal in animals:
+    print(animal)
+
+#不可变的列表称为元组
+dimensions=(12,54,45,45,3,4,8,25)
+#修改元组变量
+dimensions=(5,4,3,87,6,4,8,25)

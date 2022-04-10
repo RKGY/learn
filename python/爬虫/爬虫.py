@@ -30,7 +30,7 @@ headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46",
 'connection':'close'
 }
-params = {"wd":"校园",
+params = {"wd":"wd",
 "pn":0
 }
 filename="C:\\Users\\Admin\\Desktop\\生成文件\\图片\\"
